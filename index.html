@@ -188,6 +188,11 @@ body, html {
     background-color: #bbcecb;
   }
 
+  .w3-container#gallery{
+    background-color: #004447;
+    color:white;
+  }
+
   .w3-container#promo2{
     background-color: #004447;
     color:white;
@@ -214,7 +219,11 @@ body, html {
   }
 }
 
-  
+@media screen and (max-width: 850px){
+  .w3-jumbo {
+    font-size:48px!important;
+  }
+} 
 </style>
 </head>
 <body>
@@ -265,7 +274,7 @@ body, html {
   <p class="w3-center w3-large">Key features of our company</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
-      <p class="w3-large">Vission</p>
+      <p class="w3-large">Vision</p>
       <p>Our vision is to become a world-known one-stop destination for all helicopter-related solutions. If we don’t know the answer, we will find it for you through our global networks. We are eager to be the main provider for both individuals and businesses seeking helicopter solutions tailored to their individual needs.</p>
     </div>
     <div class="w3-quarter">
@@ -285,7 +294,6 @@ body, html {
     <div class="w3-col m6">
       <h3>Discover the Skies with Us</h3>
       <p>Embark on a journey above the clouds with our exceptional helicopter designs. We specialize in crafting experiences that elevate your perspective.</p>
-      <p><a href="#work" class="w3-button w3-grey"><i class="fa fa-th"> </i> Explore Our Fleet</a></p>
     </div>
     <div class="w3-col m6">
       <img class="w3-image w3-round-large" src="heli_3.jpg" alt="Helicopter" width="600" height="294">
@@ -315,11 +323,11 @@ body, html {
 
 <!-- Promo Section "Statistics" -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64" id="promo">
-  <p>As we continue to expand, our goal is to offer an exciting range of experiences in the beautiful Creston Valley. Imagine scenic flights capturing stunning aerial views, mountaintop picnics with panoramic vistas, wine tastings and tours showcasing local vineyards, guided hiking and fishing trips, wilderness campouts, paddleboarding on mountain lakes, excursions to Kokanee Glacier, and explorations in the Rocky Mountains. These are just a few of the adventures we're planning!</p>
+  <p>As we continue to expand, our goal is to offer an exciting range of experiences in the beautiful Creston Valley. Imagine scenic flights capturing stunning aerial views, mountain top picnics with panoramic vistas, wine tastings and tours showcasing local vineyards, guided hiking and fishing trips, wilderness campouts, paddleboarding on mountain lakes, excursions to Kokanee Glacier, and explorations in the Rocky Mountains. These are just a few of the adventures we're planning!</p>
 </div>
 
 <!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px 18px 16px" id="work">
+<div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">OUR WORK</h3>
   <p class="w3-center w3-large">What we offer</p>
   <div class="w3-row-padding w3-center" style="margin-top:54px">
@@ -340,9 +348,15 @@ body, html {
       </ul>
     </div>
     <div class="w3-quarter">
-      <p class="w3-large">Drone Services</p>
+      <p class="w3-large">Drone Services & Photography</p>
       <ul>
         <li>Advanced RPAS VLOS License (RPAS = Remotely Piloted Aircraft System, VLOS = Visual Line Of Sight)</li>
+      </ul>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Aviation & Travel Consultations</p>
+      <ul>
+        <li>EXAMPLE</li>
       </ul>
     </div>
   </div>
@@ -350,8 +364,10 @@ body, html {
 </div>
 
 <!-- Work Section -->
-<div class="w3-container" style="padding:18px 16px 128px 16px" id="work">
-  <div class="w3-row-padding" style="margin-top:44px">
+
+<div class="w3-container" style="padding:128px 16px" id="gallery">
+  <h3 class="w3-center">GALLERY</h3>
+  <div class="w3-row-padding" style="margin-top:54px">
     <div class="w3-col l3 m6">
       <img src="heli_1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Helicopter 1">
     </div>
